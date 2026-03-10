@@ -140,6 +140,36 @@ The merchant receives on their chosen network regardless of which chain the cust
 - **Webhooks.** HMAC-SHA256 signed, real-time payment notifications
 - **Enterprise security.** 2FA, API key management, audit trail
 
+## Testing
+
+Fivo provides a full testnet environment so you can integrate and test without risking real funds.
+
+| Service | Mainnet | Testnet |
+|---------|---------|---------|
+| Dashboard | [fivo.finance](https://fivo.finance) | [test.fivo.finance](https://test.fivo.finance) |
+| API | api.fivo.finance | api-test.fivo.finance |
+| Widget | checkout.fivo.finance | checkout-test.fivo.finance |
+
+**How to test:**
+
+1. Register at [test.fivo.finance](https://test.fivo.finance) — you'll get a testnet merchant ID (`fivo_test_*`)
+2. Get free testnet USDC from the [Circle Faucet](https://faucet.circle.com)
+3. Integrate the widget pointing to the testnet script:
+
+```html
+<script
+  src="https://checkout-test.fivo.finance/v1/fivo.js"
+  data-merchant-id="fivo_test_your_id"
+  data-amount="10.00"
+  data-currency="USDC"
+></script>
+```
+
+4. Make test payments, configure webhooks, and verify everything works
+5. When ready, register at [fivo.finance](https://fivo.finance) to get your mainnet merchant ID (`fivo_live_*`) and go live
+
+Both environments are fully independent with separate databases, wallets, and API keys.
+
 ## Pricing
 
 - **No monthly fees**
