@@ -9,7 +9,7 @@
 [![Live on Mainnet](https://img.shields.io/badge/Status-Live%20on%20Mainnet-brightgreen?style=flat-square)](https://fivo.finance)
 [![Built with Circle](https://img.shields.io/badge/Built%20with-Circle-2762F8?style=flat-square&logo=circle)](https://www.circle.com/)
 [![9 Networks](https://img.shields.io/badge/Networks-9%20EVM%20Chains-blue?style=flat-square)](https://fivo.finance/chains)
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-gray?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-gray?style=flat-square)](LICENSE)
 
 Accept USDC and EURC on your website with a single line of code. No banks, no borders, no delays.
 
@@ -133,6 +133,8 @@ The merchant receives on their chosen network regardless of which chain the cust
 - **Cross-chain bridging.** Automatic via Circle Bridge Kit
 - **Stablecoins only.** USDC and EURC, no volatility
 - **Instant settlement.** Funds arrive in your wallet, not a bank account
+- **Multi-language.** Dashboard, widget, docs and emails in 5 languages (EN, ES, FR, DE, PT)
+- **Customer notifications.** Payment receipts and refund confirmations sent to customers via email
 - **Refunds.** On-chain refund execution with receipt PDF
 - **Invoicing.** Automatic invoice per withdrawal with PDF generation
 - **Webhooks.** HMAC-SHA256 signed, real-time payment notifications
