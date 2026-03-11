@@ -55,15 +55,16 @@ Built on [Circle](https://www.circle.com/) infrastructure (Programmable Wallets 
 
 ### Widget (recommended)
 
-Add a single script tag to your website:
+Add the Fivo script once and place payment buttons anywhere on your page:
 
 ```html
-<script
-  src="https://checkout.fivo.finance/v1/fivo.js"
-  data-merchant-id="your_merchant_id"
-  data-amount="25.00"
-  data-currency="USDC"
-></script>
+<script async src="https://checkout.fivo.finance/v1/fivo.js"></script>
+
+<fivo-button
+  merchant-id="your_merchant_id"
+  amount="25.00"
+  currency="USDC">
+</fivo-button>
 ```
 
 This renders a "Pay with Fivo" button that opens a checkout modal. The customer connects their wallet, selects a network, and pays. All without leaving your site.
@@ -75,7 +76,7 @@ This renders a "Pay with Fivo" button that opens a checkout modal. The customer 
 
 <br/>
 
-For variable amounts (donations, tips), omit the `data-amount` attribute and the customer enters the amount themselves.
+For variable amounts (donations, tips), omit the `amount` attribute and the customer enters the amount themselves.
 
 ### Checkout Sessions (API)
 
@@ -157,12 +158,13 @@ Fivo provides a full testnet environment so you can integrate and test without r
 3. Integrate the widget pointing to the testnet script:
 
 ```html
-<script
-  src="https://checkout-test.fivo.finance/v1/fivo.js"
-  data-merchant-id="fivo_test_your_id"
-  data-amount="10.00"
-  data-currency="USDC"
-></script>
+<script async src="https://checkout-test.fivo.finance/v1/fivo.js"></script>
+
+<fivo-button
+  merchant-id="fivo_test_your_id"
+  amount="10.00"
+  currency="USDC">
+</fivo-button>
 ```
 
 4. Make test payments, configure webhooks, and verify everything works
