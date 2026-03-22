@@ -8,12 +8,13 @@
 
 [![Live on Mainnet](https://img.shields.io/badge/Status-Live%20on%20Mainnet-brightgreen?style=flat-square)](https://fivo.finance)
 [![Built with Circle](https://img.shields.io/badge/Built%20with-Circle-2762F8?style=flat-square&logo=circle)](https://www.circle.com/)
+[![Circle Alliance](https://img.shields.io/badge/Circle-Alliance%20Member-2762F8?style=flat-square&logo=circle)](https://partners.circle.com)
 [![9 Networks](https://img.shields.io/badge/Networks-9%20EVM%20Chains-blue?style=flat-square)](https://fivo.finance/chains)
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-gray?style=flat-square)](LICENSE)
 
 Accept USDC and EURC on your website with a single line of code. No banks, no borders, no delays.
 
-[Website](https://fivo.finance) | [Documentation](https://fivo.finance/docs) | [Quick Start](https://fivo.finance/docs/quickstart) | [Contact](https://fivo.finance/contact)
+[Website](https://fivo.finance) | [Documentation](https://fivo.finance/docs) | [Quick Start](https://fivo.finance/docs/quickstart) | [Blog](https://fivo.finance/blog) | [Contact](https://fivo.finance/contact)
 
 <img src="assets/hero.png" alt="Fivo — Stablecoin Payment Gateway" width="700" />
 
@@ -26,6 +27,10 @@ Accept USDC and EURC on your website with a single line of code. No banks, no bo
 Fivo is a stablecoin payment gateway that lets merchants accept USDC and EURC payments across 9 blockchain networks with instant settlement.
 
 Built on [Circle](https://www.circle.com/) infrastructure (Programmable Wallets + [Bridge Kit SDK](https://developers.circle.com/w3s/bridge-kit-sdk)), Fivo handles cross-chain bridging automatically. A customer can pay from any supported network and the merchant receives funds on their preferred chain.
+
+<div align="center">
+<img src="assets/circle-alliance.png" alt="Fivo — Circle Alliance Member" width="700" />
+</div>
 
 ## How It Works
 
@@ -70,7 +75,7 @@ Add the Fivo script once and place payment buttons anywhere on your page:
 This renders a "Pay with Fivo" button that opens a checkout modal. The customer connects their wallet, selects a network, and pays. All without leaving your site.
 
 <div align="center">
-<img src="assets/shop-demo.png" alt="Fivo buttons integrated in an e-commerce store" width="700" />
+<img src="assets/shop-demo.png" alt="Fivo payment buttons integrated in an e-commerce store" width="700" />
 <br/><sub>Example: Fivo payment buttons integrated in a product catalog</sub>
 </div>
 
@@ -110,6 +115,15 @@ Track payments in real time, manage wallets across chains, configure webhooks, i
 
 <div align="center">
 <img src="assets/dashboard.png" alt="Fivo Merchant Dashboard — payment analytics and management" width="700" />
+</div>
+
+## Demo Store
+
+See Fivo in action on a fully working demo e-commerce site. Browse products, add to cart, and complete a real checkout flow using testnet USDC.
+
+<div align="center">
+<img src="assets/demo-site.png" alt="Fivo Demo Store — live e-commerce demo" width="700" />
+<br/><sub><a href="https://demo.fivo.finance">demo.fivo.finance</a></sub>
 </div>
 
 ## Supported Networks
@@ -172,6 +186,10 @@ Fivo provides a full testnet environment so you can integrate and test without r
 
 Both environments are fully independent with separate databases, wallets, and API keys.
 
+## Blog
+
+Stay up to date with product announcements, integration guides, and industry insights on the [Fivo Blog](https://fivo.finance/blog).
+
 ## Pricing
 
 - **No monthly fees**
@@ -193,6 +211,8 @@ Both environments are fully independent with separate databases, wallets, and AP
 - [Documentation](https://fivo.finance/docs)
 - [Quick Start Guide](https://fivo.finance/docs/quickstart)
 - [API Reference](https://fivo.finance/docs/api-reference)
+- [Blog](https://fivo.finance/blog)
+- [Demo Store](https://demo.fivo.finance)
 - [Contact](https://fivo.finance/contact)
 
 ---
